@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+}
+
+.titleClass {
+    flex: 10;
+}
+
+.btnClass {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  text-decoration: inherit;
+  padding: 6px 9px;
+  /* flex:1; */
+  cursor: pointer;
+  border: none;
+  border-radius: 35%;
+}
+
+.headerClass {
+  background-color: #66b3ff;
+  text-align: center;
+  text-decoration: none;
+  /* font-size: 20px;
+  font-weight: bold; */
+  color: white;
+  padding: 10px;
+}
