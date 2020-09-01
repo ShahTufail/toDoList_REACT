@@ -79,10 +79,8 @@ class App extends Component {
 
           <Route exact path='/' render={props => (
             <React.Fragment>
-
               <AddTodo
                 addTodo={this.saveTodo}/>
-                { /* this is used for adding a new todo func */ }
 
               <Todos
                 todos={this.state.todos}
@@ -91,6 +89,7 @@ class App extends Component {
               />
             </React.Fragment>
           )} />
+
           <Route path='/about' component={About} />
 
 
