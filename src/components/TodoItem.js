@@ -10,6 +10,13 @@ class TodoItem extends Component {
       textDecoration: this.props.todoItem.completed ? 'line-through' : 'none'
     }
   }
+  conditionalStyle = () => {
+    return {
+      backgroundColor: this.props.todoItem.completed ? '#e6e6ff' : '#007399',
+      color: !this.props.todoItem.completed ? '#e6e6ff' : '#007399',
+      textDecoration: 'none'
+    }
+  }
   // toggleCompleted = () => {
   //   console.log(this.props);
   // }
@@ -25,7 +32,7 @@ class TodoItem extends Component {
         />
         {' '}
         <span className='titleClass'>{title}</span>
-        <button onClick={this.props.delTodo.bind(this, id)} className='btnClass'>x</button>
+        <button onClick={this.props.delTodo.bind(this, id)} className='btnClass' style={this.conditionalStyle()}>x</button>
       </div>
     )
   }

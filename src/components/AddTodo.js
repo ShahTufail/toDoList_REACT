@@ -23,7 +23,7 @@ class AddTodo extends Component {
           <input
             type='text'
             name='title'
-            style={{ flex: '10', padding: '5px'}}
+            className='addToField'
             value={this.state.title}
             placeholder='Add Todo...'
             onChange={this.setTodo}
@@ -32,7 +32,7 @@ class AddTodo extends Component {
           <input
             type='submit'
             style={buttonStyle}
-            value='Add' />
+            value='Add Todo' />
         </form>
       </div>
     )
@@ -45,7 +45,8 @@ const buttonStyle = {
   cursor: 'pointer',
   margin: '2px',
   borderRadius: '8%',
-  color: '#e6e6ff'
+  color: '#e6e6ff',
+  fontWeight: 'bold'
 }
 
 // PropType

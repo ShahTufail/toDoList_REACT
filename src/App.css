@@ -19,7 +19,8 @@
 }
 
 .headerClass {
-  background-color: #66b3ff;
+  /* '#e6e6ff' : '#007399' */
+  background-color: #007399;
   text-align: center;
   text-decoration: none;
   font-size: 20px;
@@ -31,4 +32,12 @@
 .linkClass {
   color: #e6e6ff;
   text-decoration: none;
+}
+
+.addToField {
+  flex: 10;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 3%;
+  border: 3px #e6e6ff solid;
 }
