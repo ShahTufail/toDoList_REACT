@@ -7,7 +7,7 @@
 }
 
 .btnClass {
-  background-color: red;
+  background-color: #007399;
   color: white;
   font-weight: bold;
   text-decoration: inherit;
@@ -22,8 +22,13 @@
   background-color: #66b3ff;
   text-align: center;
   text-decoration: none;
-  /* font-size: 20px;
-  font-weight: bold; */
-  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e6e6ff;
   padding: 10px;
+  margin-top: auto;
+}
+.linkClass {
+  color: #e6e6ff;
+  text-decoration: none;
 }

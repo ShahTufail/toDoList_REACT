@@ -31,12 +31,21 @@ class AddTodo extends Component {
 
           <input
             type='submit'
-            style={{ flex: '1', padding: '5px', backgroundColor: '#1aff1a', cursor: 'pointer'}}
+            style={buttonStyle}
             value='Add' />
         </form>
       </div>
     )
   }
+}
+const buttonStyle = {
+  flex: '1',
+  padding: '10px',
+  backgroundColor: '#007399',
+  cursor: 'pointer',
+  margin: '2px',
+  borderRadius: '8%',
+  color: '#e6e6ff'
 }
 
 // PropType

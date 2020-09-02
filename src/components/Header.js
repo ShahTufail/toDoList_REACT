@@ -5,8 +5,9 @@ class Header extends Component {
   render() {
     return (
       <header className='headerClass' >
-        <h1>ToDoList</h1>
-        <Link to='/'> Home </Link> | <Link to='/about'>About</Link>
+        <h1>TODO LIST</h1>
+        <Link className='linkClass' to='/'> Home </Link> |{' '}
+        <Link  className='linkClass' to='/about'>About</Link>
       </header>
     )
   }
