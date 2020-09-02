@@ -29,24 +29,27 @@ class AddTodo extends Component {
             onChange={this.setTodo}
             />
 
-          <input
+          <button
             type='submit'
             style={buttonStyle}
-            value='Add Todo' />
+            className='button'>
+              AddTodo
+            </button>
         </form>
       </div>
     )
   }
 }
 const buttonStyle = {
-  flex: '1',
+  flex: '.5',
   padding: '10px',
   backgroundColor: '#007399',
   cursor: 'pointer',
-  margin: '2px',
-  borderRadius: '8%',
+  margin: '4px',
+  borderRadius: '3%',
   color: '#e6e6ff',
-  fontWeight: 'bold'
+  fontWeight: 'bold',
+  border: 'none'
 }
 
 // PropType
