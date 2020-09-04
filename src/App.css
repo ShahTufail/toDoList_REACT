@@ -16,6 +16,11 @@
   cursor: pointer;
   border: none;
   border-radius: 35%;
+  transition-duration: 1s;
+}
+.btnClass:hover {
+    background-color: red !important;
+    transform: rotateX(160deg);
 }
 
 .headerClass {
@@ -35,17 +40,16 @@
 }
 
 .addToField {
-  flex: 10;
+  flex: 19;
   padding: 5px;
   margin: 3px;
   border-radius: 3%;
   border: 3px #e6e6ff solid;
 }
 .button {
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 
 .button:hover {
-  background-color: #007399;
-  transform: rotateX(360deg);
+  transform: rotateY(150deg);
 }

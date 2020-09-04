@@ -33,7 +33,7 @@ class AddTodo extends Component {
             type='submit'
             style={buttonStyle}
             className='button'>
-              AddTodo
+              +
             </button>
         </form>
       </div>
@@ -42,13 +42,14 @@ class AddTodo extends Component {
 }
 const buttonStyle = {
   flex: '.5',
-  padding: '10px',
+  // padding: '10px',
   backgroundColor: '#007399',
   cursor: 'pointer',
   margin: '4px',
   borderRadius: '3%',
   color: '#e6e6ff',
-  fontWeight: 'bold',
+  fontSize: '20px',
+  fontWeight: 'bolder',
   border: 'none'
 }
 
