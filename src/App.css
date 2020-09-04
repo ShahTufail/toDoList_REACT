@@ -9,13 +9,13 @@
 .btnClass {
   background-color: #007399;
   color: white;
-  font-weight: bold;
+  font-weight: 900;
   text-decoration: inherit;
   padding: 6px 9px;
   /* flex:1; */
   cursor: pointer;
   border: none;
-  border-radius: 35%;
+  border-radius: 20%;
   transition-duration: 1s;
 }
 .btnClass:hover {
@@ -45,11 +45,4 @@
   margin: 3px;
   border-radius: 3%;
   border: 3px #e6e6ff solid;
-}
-.button {
-  transition-duration: 1s;
-}
-
-.button:hover {
-  transform: rotateY(150deg);
 }
