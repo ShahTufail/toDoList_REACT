@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "homepage": ".",
+    "homepage": "./public",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
