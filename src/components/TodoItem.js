@@ -17,9 +17,6 @@ class TodoItem extends Component {
       textDecoration: 'none'
     }
   }
-  // toggleCompleted = () => {
-  //   console.log(this.props);
-  // }
 
   render() {
     const { title, id, completed } = this.props.todoItem;

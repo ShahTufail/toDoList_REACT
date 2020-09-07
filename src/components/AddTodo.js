@@ -42,7 +42,6 @@ class AddTodo extends Component {
 }
 const buttonStyle = {
   flex: '.5',
-  // padding: '10px',
   backgroundColor: '#007399',
   cursor: 'pointer',
   margin: '4px',
