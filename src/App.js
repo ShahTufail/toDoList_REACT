@@ -11,21 +11,6 @@ import About from './components/Pages/About'
 class App extends Component {
   state = {
     todos: [
-      // {
-      //   title: 'Take out the trash',
-      //   id: 1,
-      //   completed: false
-      // },
-      // {
-      //   title: 'Meeting with boss',
-      //   id: 2,
-      //   completed: true
-      // },
-      // {
-      //   title: 'Meet the boss',
-      //   id: 3,
-      //   completed: false
-      // }
 
     ]
   }
@@ -71,7 +56,6 @@ class App extends Component {
   })
     }
   render() {
-    // console.log(this.state.todos)
     return (
       <Router>
         <div>
@@ -107,8 +91,3 @@ class App extends Component {
   };
 }
 export default App;
-
-  // <img src={logo} className="App-logo" alt="logo" />
-  // <p>
-  //   Edit <code>src/App.js</code> and save to reload.
-  // </p>
